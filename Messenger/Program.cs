@@ -20,7 +20,7 @@ namespace Messenger
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
 
-            int port = 49200;
+/*            int port = 49200;
             IPAddress address = IPAddress.Parse("127.0.0.1");
 
             TcpListener server = new TcpListener(address, port);
@@ -48,7 +48,7 @@ namespace Messenger
                 {
                     
                 }
-            }
+            }*/
         }
     }
 }
